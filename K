@@ -1,0 +1,8 @@
+function drawShape(ctx, xoff, yoff) {
+  ctx.beginPath();
+  ctx.moveTo(76 + xoff, 93 + yoff);
+  ctx.bezierCurveTo(75 + xoff, 78 + yoff, 84 + xoff, 368 + yoff, 82 + xoff, 239 + yoff);
+  ctx.bezierCurveTo(79 + xoff, 52 + yoff, 275 + xoff, -35 + yoff, 172 + xoff, 62 + yoff);
+  ctx.bezierCurveTo(2 + xoff, 223 + yoff, 193 + xoff, 228 + yoff, 191 + xoff, 213 + yoff);
+  ctx.stroke();
+}
